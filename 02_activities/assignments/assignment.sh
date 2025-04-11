@@ -59,8 +59,7 @@ rm ./data/processed/user_logs/*ipaddr*
 
 cd data
 touch inventory.txt
-cd ..
-ls ./data/processed > ./data/inventory.txt
+ls ./data/processed > inventory.txt
 
 
 ###########################################
